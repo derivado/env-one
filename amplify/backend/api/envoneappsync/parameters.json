@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "envoneappsync",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authenvone1f925ec7",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

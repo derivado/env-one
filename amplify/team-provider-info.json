@@ -15,5 +15,22 @@
                 "envone1f925ec7": {}
             }
         }
+    },
+    "sandbox": {
+        "awscloudformation": {
+            "AuthRoleName": "env-one-sandbox-20190919152237-authRole",
+            "UnauthRoleArn": "arn:aws:iam::496165201814:role/env-one-sandbox-20190919152237-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::496165201814:role/env-one-sandbox-20190919152237-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "env-one-sandbox-20190919152237-deployment",
+            "UnauthRoleName": "env-one-sandbox-20190919152237-unauthRole",
+            "StackName": "env-one-sandbox-20190919152237",
+            "StackId": "arn:aws:cloudformation:us-east-1:496165201814:stack/env-one-sandbox-20190919152237/d7377160-db12-11e9-9dbd-0aa554d91bcc"
+        },
+        "categories": {
+            "auth": {
+                "envone1f925ec7": {}
+            }
+        }
     }
 }
