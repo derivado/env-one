@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"envone1f925ec7": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
